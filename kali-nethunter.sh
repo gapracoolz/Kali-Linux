@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash -e
-
+#fork from rc-chuah
 VERSION=2020011601
 BASE_URL=https://kali.download/nethunter-images/current/rootfs
 USERNAME=kali
