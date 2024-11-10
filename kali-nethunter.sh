@@ -3,14 +3,12 @@
 VERSION=2020011601
 BASE_URL=https://kali.download/nethunter-images/current/rootfs
 USERNAME=kali
-
 function unsupported_arch() {
     printf "${red}"
     echo "[*] Unsupported Architecture\n\n"
     printf "${reset}"
     exit
 }
-
 function ask() {
     # http://djm.me/ask
     while true; do
@@ -44,7 +42,6 @@ function ask() {
         esac
     done
 }
-
 function get_arch() {
     printf "${blue}[*] Checking device architecture ..."
     case $(getprop ro.product.cpu.abi) in
